@@ -1,0 +1,30 @@
+{
+  "name": "roccomuso.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve src/",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/roccomuso.github.io.git"
+  },
+  "keywords": [
+    "roccomuso",
+    "rocco musolino"
+  ],
+  "author": "Rocco Musolino (roccomuso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roccomuso/roccomuso.github.io/issues"
+  },
+  "homepage": "https://github.com/roccomuso/roccomuso.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "devDependencies": {
+    "serve": "^6.4.1"
+  }
+}

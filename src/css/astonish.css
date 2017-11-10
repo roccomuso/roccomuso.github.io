@@ -1,0 +1,1898 @@
+/* ================================ */
+/* ======== TABLE OF CONTENTS ========= */
+/* ================================ */
+/*
+1. GOOGLE FONTS
+2. BASIC STYLES
+3. HELPER CLASSES
+4. HEADING STYLES
+5. IMAGE STYLES
+6. BLOG STYLES
+7. SIDEBAR STYLES AND WIDGETS
+8. SCROLL TO TOP BUTTON
+9. TESTIMONIALS STYLES
+10. IMAGE OVERLAYS
+11. PRICING TABLE STYLES
+12. ICON FEATURE BOXES
+13. CONTACT PAGE MAP STYLES
+14. FORM STYLES
+15. TEAM MEMBERS
+16. SOCIAL ICONS
+17. COUNTER STYLES
+18. ACCORDION AND TABS
+19. STYLE SWITCHER
+20. OWL CAROUSEL
+21. PORTFOLIO STYLES
+22. ISOTOPE FILTERING SCRIPT
+23. BREADCRUMBS STYLES
+24. PAGINATION STYLES
+25. PROGRESS BAR STYLES
+26. TABLE STYLES
+27. FOOTER STYLES
+*/
+/* =============================== */
+/* ========== 1. GOOGLE FONTS ==========*/
+/* =============================== */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900,800,500,300,600);
+/* =================================  */
+/* ========== 2. BASIC STYLES ==========  */
+/* =================================  */
+
+div.more-info {
+    text-transform: none !important;
+    font-weight: 100 !important;
+    font-style: italic !important;
+    font-size: 20px !important;
+}
+
+html { 
+	-webkit-font-smoothing: antialiased !important;
+     font-smoothing: antialiased !important;
+	text-rendering: optimizeLegibility !important;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFF;
+	color: #777;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.64285;
+	overflow-x: hidden;
+	height: auto;
+	position: relative;
+}
+a, a:link, a:visited {
+text-decoration: none;
+color: #50525f;
+  outline: 0;
+}
+a:active, a:hover {
+color: #f56363;
+  outline: 0;
+}
+section {
+position: relative;
+}
+.bg-img {
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fullwidth-section {
+position: relative;
+padding-top:100px;
+padding-bottom:100px;
+}
+.fullwidth-section.half-padding {
+position: relative;
+padding-top:50px;
+padding-bottom:50px;
+}
+.parallax {
+position: absolute;
+background-attachment: fixed;
+background-position: top center;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Page Loading */
+#pageloader {
+width:100%;
+height:100%;
+position:fixed;
+background-color:#FFF;
+z-index:999999;
+}
+
+.loader-img {
+position:absolute;
+width:auto;
+height:height;
+margin:-27px 0 0 -27px;
+top:50%;
+margin-top: -40px;
+left:50%;
+margin-left: -40px;
+text-align:center;
+}
+/* =================================  */
+/* ========== 3. HELPER CLASSES ==========  */
+/* =================================  */
+.color-primary {
+color: #f56363 !important;
+}
+.bg-primary {
+color: #fff;
+background-color: #f56363 !important;
+}
+.border-primary {
+border-color: #f56363 !important;
+}
+.color-white {
+color:#FFF !important;
+}
+.bg-white {
+background-color:#FFF !important;
+}
+.border-white {
+border-color: #FFF !important;
+}
+.color-dark {
+color:#50525f!important;
+}
+.bg-dark {
+background-color:#50525f!important;
+}
+.bg-transparent {
+background-color: transparent !important;
+}
+.weight-300 {
+font-weight: 300;
+}
+.weight-400 {
+font-weight: 400;
+}
+.weight-500 {
+font-weight: 500;
+}
+.weight-600 {
+font-weight: 600;
+}
+.weight-700 {
+font-weight: 700;
+}
+.weight-800 {
+font-weight: 800;
+}
+.weight-900 {
+font-weight: 900 !important;
+}
+.uppercase {
+text-transform: uppercase;
+}
+.kill-top-margin {
+margin-top: 0 !important;
+}
+.kill-bottom-margin {
+margin-bottom: 0 !important;
+}
+.kill-top-padding {
+padding-top: 0 !important;
+}
+.kill-bottom-padding {
+padding-bottom: 0 !important;
+}
+.img-center {
+margin: 0 auto;
+}
+.rounded {
+border-radius: 1000px !important;
+}
+/* =================================  */
+/* ========== 4. HEADING STYLES ==========  */
+/* =================================  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #50525f;
+  line-height: 1.4;
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h4,
+h5,
+h6 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+h1,
+.h1 {
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 1.2
+}
+h2,
+.h2 {
+  font-size: 36px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+/* =================================  */
+/* ============ 5. IMAGE STYLES ==========  */
+/* =================================  */
+img {
+max-width: 100%;
+}
+.img-thumb {
+position:relative;
+width:100%;
+overflow:hidden;
+background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-position:center center;
+}
+.img-float-left {
+position: relative;
+float: left;
+border-radius: 1px;
+margin: 20px 20px 20px 0;
+padding: 0;
+max-width: 100%;
+}
+.img-float-right {
+position: relative;
+float: right;
+border-radius: 1px;
+margin: 20px 0 20px 20px;
+padding: 0;
+max-width: 100%;
+}
+/* =================================  */
+/* ============ 6. BLOG STYLES ==========  */
+/* =================================  */
+	#blog img {
+	border-radius: 1px;
+	margin-top: 15px;
+	}
+	.blog-img-wrapper {
+	position: relative;
+	}
+		.blog-img-hover {
+	position: absolute;
+	border-radius: 1px;
+	background-color:rgba(0,0,0,0);
+	width: 100%;
+	height: 100%;
+	    -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+	}
+	.blog-img-hover:hover {
+	background-color:rgba(60,62,71,0.75);
+	}
+	/* For single link image hover */
+	.blog-img-hover .hover-full {
+	position: absolute;
+	left:0;
+	width: 100%;
+	height: 100%;
+	}
+	.blog-img-hover .hover-full i {
+	position: absolute;
+	font-size: 12px;
+	color: #f56363;
+	top: -5%;
+	right: 50%;
+	margin-right: -18px;
+	margin-top: -18px;
+	padding: 12px;
+	border-radius: 50px;
+	background-color: #FFF;
+opacity: 0;
+z-index: -1;
+	    -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+	.blog-img-hover:hover .hover-full i {
+	opacity: 1;
+		top: 50%;
+		z-index: 1;
+	}
+.blog-img-hover .hover-full i:hover {
+color: #FFF;
+background-color: #f56363;
+}
+
+/* For two link display for image hover */
+	.blog-img-hover .hover-left {
+	position: absolute;
+	left:0;
+	width: 50%;
+	height: 100%;
+	}
+		.blog-img-hover .hover-right {
+	position: absolute;
+	right:0;
+	width: 50%;
+	height: 100%;
+	}
+.blog-img-hover .hover-left i {
+	position: absolute;
+	font-size: 12px;
+	color: #f56363;
+	top: -5%;
+	left: 50%;
+	margin-top: -18px;
+	padding: 12px;
+	border-radius: 50px;
+		background-color: #FFF;
+opacity: 0;
+z-index: -1;
+	    -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+.blog-img-hover .hover-right i {
+	position: absolute;
+	font-size: 12px;
+	color: #f56363;
+	top: -5%;
+	right: 50%;
+	margin-top: -18px;
+	padding: 12px;
+	border-radius: 50px;
+		background-color: #FFF;
+opacity: 0;
+z-index: -1;
+	    -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+	.blog-img-hover:hover .hover-left i, .blog-img-hover:hover .hover-right i {
+	opacity: 1;
+		top: 50%;
+		z-index: 1;
+	}
+.blog-img-hover .hover-left i:hover, .blog-img-hover .hover-right i:hover {
+color: #FFF;
+background-color: #f56363;
+}
+	hr.blank {
+	border-color: transparent;
+	}
+/* Fullwidth Blog Styles */	
+	#blog-fullwidth img {
+	border-radius: 1px;
+	}
+	#blog-fullwidth h2 {
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	}
+	#blog-fullwidth hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	}
+	#blog-fullwidth .hover-left i, #blog-fullwidth .hover-right i {
+	padding: 20px;
+	font-size: 20px;
+	margin-top: -30px;
+	}
+	#blog-fullwidth .social-icons {
+	margin-top: 15px;
+	}
+	#blog-fullwidth .img-thumb {
+width:100%;
+height: 700px;
+overflow:hidden;
+background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-position:center center;
+background-attachment: fixed;
+}
+#blog-fullwidth .expand-img i {
+position: absolute;
+bottom: 20px;
+right: 20px;
+font-size: 14px;
+line-height: 1;
+border-radius: 50px;
+padding: 12px;
+color: #f56363;
+z-index: 5;
+background-color: #FFF;
+	    -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+#blog-fullwidth .expand-img:hover i {
+color: #FFF;
+background-color: #f56363;
+}
+#blog-fullwidth .post-img-lg {
+margin-bottom: 60px;
+}
+#blog-fullwidth #search {
+margin-top: 30px;
+}
+	/* Blog With Sidebar Styles */	
+	#blog-sidebar img {
+	border-radius: 1px;
+	}
+	#blog-sidebar h2 {
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	}
+	#blog-sidebar hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	}
+	#blog-sidebar .hover-left i, #blog-sidebar .hover-right i {
+	padding: 15px;
+	font-size: 16px;
+	margin-top: -24px;
+	}
+	/* Blog - Small Image With Sidebar */	
+	#blog-small-img-sidebar img {
+	border-radius: 1px;
+	}
+	#blog-small-img-sidebar h4 {
+	font-weight: 700;
+	margin-top: 0;
+	}
+	#blog-small-img-sidebar hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	}
+	#blog-small-img-sidebar .hover-left i, #blog-small-img-sidebar .hover-right i {
+	padding: 15px;
+	font-size: 16px;
+	margin-top: -24px;
+	}
+	@media (max-width: 992px) {
+	#blog-small-img-sidebar h4 {
+	font-weight: 700;
+	margin-top: 10px;
+	}
+}
+	/* Blog Masonry Styles */
+#blog-masonry h4 {
+font-weight: 700;
+}
+#blog-masonry hr {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	}
+/* Comments Section */
+#comments h4 {
+text-transform: uppercase;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+#comments h5 {
+margin-top: 0;
+}
+#comments ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#comments li {
+margin-top: 0px;
+}
+#comments ul ul {
+list-style: none;
+margin-left: 80px;
+padding: 0;
+}
+#comments .avatar {
+float: left;
+border-radius: 100px;
+width: 80px;
+height: 80px;
+margin-right: 20px;
+}
+#comments .comment {
+margin-left: 0px;
+margin-right: 20px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-bottom: 1px solid #EEE;
+}
+#comments .author {
+display: inline-block;
+}
+#comments .date {
+display: inline-block;
+float: right;
+color: #50525f;
+}
+#reply h4 {
+text-transform: uppercase;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/* ====================================== */
+/* ======= 7. SIDEBAR STYLES AND WIDGETS ======= */
+/* ====================================== */
+#sidebar .input-group input {
+background-color:rgba(0,0,0,0);
+color:#777;
+border:2px solid #EEE;
+padding:8px;
+height:auto;
+font-size:13px;
+box-shadow:none;
+}
+
+#sidebar .input-group .input-group-btn .btn {
+margin-left:0;
+padding:11px 12px 10px;
+}
+#sidebar h4 {
+margin-top: 40px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: 700;
+}
+#sidebar div:first-child h4 {
+margin-top: 0;
+}
+#sidebar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#sidebar li:before {
+  font-family: 'FontAwesome';
+    content: "\f101";
+	margin-right: 6px;
+	color: #50525f;
+}
+#sidebar li {
+margin: 0;
+padding: 5px 0;
+border-bottom: 1px solid #EEE;
+}
+
+#sidebar .tagcloud a {
+  font-family: 'Raleway', sans-serif;
+padding: 0px 0px 8px 0px;
+border-radius: 2px;
+margin-bottom: 2px;
+display: inline-block;
+line-height: 1;
+transition:all .5s,;
+-moz-transition:all .5s;
+/* Firefox 4 */
+-webkit-transition:all .5s;
+}
+#sidebar .widget_calendar #wp-calendar {
+  font-family: 'Raleway', sans-serif;
+width: 100%;
+}
+#sidebar .widget_calendar #wp-calendar caption {
+width: 100%;
+font-weight: 700;
+color: #FFF;
+background-color: #50525f;
+font-size: 16px;
+padding: 10px 5px;
+border-top-left-radius: 1px;
+border-top-right-radius: 1px;
+}
+#sidebar .widget_calendar #wp-calendar th {
+color: #FFF;
+background-color: #50525f;
+border-right: 1px solid #50525f;
+border-left: 1px solid #50525f;
+border-top: 1px solid #50525f;
+text-align: center;
+font-size: 12px;
+}
+#sidebar .widget_calendar #wp-calendar td {
+color: #50525f;
+text-align: center;
+padding: 4px;
+background-color: #F5F5F5;
+}
+#sidebar .widget_calendar #wp-calendar tbody {
+border-right: 1px solid #EEE;
+border-left: 1px solid #EEE;
+border-bottom: 1px solid #EEE;
+padding-top: 5px;
+}
+#sidebar .widget_calendar #wp-calendar #prev a {
+float: left;
+padding: 5px;
+padding-top: 0;
+color: #FFF;
+}
+#sidebar .widget_calendar #wp-calendar #next a {
+float: right;
+padding: 5px;
+padding-top: 0;
+color: #FFF;
+}
+#sidebar .widget_calendar #wp-calendar #prev a:hover, #sidebar .widget_calendar #wp-calendar #next a:hover {
+color: #f56363;
+}
+/* ====================================== */
+/* ========== 8. SCROLL TO TOP BUTTON ========== */
+/* ====================================== */
+
+.scrollup i {
+position: fixed;
+border-radius: 25px;
+bottom: 20px;
+right: 20px;
+padding: 10px 13px;
+line-height: 1;
+font-size: 20px;
+text-align: center;
+color: #FFF;
+cursor: pointer;
+background-color: rgba(60,62,71,0.5);
+    -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+  z-index: 10;
+}
+.scrollup i:hover {
+background-color: #f56363;
+}
+/* =======================================  */
+/* ========== 9. TESTIMONIALS STYLES ==========  */
+/* =======================================  */
+.customer {
+float: left;
+border-radius: 100px;
+width: 80px;
+height: 80px;
+margin-right: 0px;
+}
+#carousel .carousel-indicators {
+position: relative;
+top: 10px;
+}
+#carousel .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    background-color: transparent;
+	border: 2px solid;
+}
+#carousel .carousel-indicators li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: 2px;
+	margin-bottom: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#carousel h3 {
+margin-top: 30px;
+font-weight: 300;
+margin-bottom: 30px;
+line-height: 1.6;
+}
+#carousel .source {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+color: #50525f;
+}
+/* ================================= */
+/* ========== 10. IMAGE OVERLAYS ========== */
+/* ================================= */
+/* Add the class to the background element you wish to have the overlay over */
+	.img-overlay1:after{
+		background: url(../img/pat1.png) repeat;
+		content:'';
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		position: absolute;
+		opacity: 0.5;
+	}
+		.img-overlay2:after{
+		background: url(../img/pat2.png) repeat;
+		content:'';
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		position: absolute;
+		opacity: 0.5;
+	}
+	.img-overlay3:after{
+		background: url(../img/pat3.png) repeat;
+		content:'';
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		position: absolute;
+		opacity: 0.5;
+	}
+		.img-overlay4:after{
+		background: url(../img/pat4.png) repeat;
+		content:'';
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		position: absolute;
+		opacity: 0.5;
+	}
+	.transparent{
+		background:transparent !important;
+	}
+.img-overlay-solid {
+position: absolute;
+width: 100%;
+height: 100%;
+	top: 0;
+	left: 0;
+}
+/* =================================  */
+/* ========== 11. PRICING TABLE STYLES ==========  */
+/* =================================  */
+.pricing-table div[class*='col-md-'] {
+background-color: #F5F5F5;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.pricing-table div[class*='col-md-'].active {
+background-color: #EEE;
+border-right: 1px solid #EEE;
+border-left: 1px solid #EEE;
+}
+@media (max-width: 768px) {
+.pricing-table div[class*='col-md-'].active {
+border-top: 1px solid #EEE;
+border-bottom: 1px solid #EEE;
+}
+}
+.pricing-table .stars i {
+margin-right: 2px;
+font-size: 16px;
+color: #FFD100;
+}
+.pricing-table i {
+margin-right: 6px;
+font-size: 14px;
+}
+.pricing-table .decimal {
+position: relative;
+top: 5px;
+margin-left: 5px;
+font-size: 20px;
+font-weight: 400;
+}
+.pricing-table ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.pricing-table li {
+padding: 6px 10px;
+}
+/* ===============================================  */
+/* ========== 12. ICON FEATURE BOXES STYLES ==========  */
+/* ===============================================  */
+
+/* === Vertical 3 Column === */
+.icon-feature-vertical {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.icon-feature-vertical  i {
+font-size:50px;
+}
+
+
+
+/* === Horizontal 3 Column === */
+.icon-feature-horizontal {
+display:table;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.icon-feature-horizontal .icon {
+display:table-cell;
+padding-top:15px;
+}
+
+.icon-feature-horizontal .icon i {
+font-size:36px;
+}
+
+.icon-feature-horizontal .content {
+display:table-cell;
+vertical-align:top;
+text-align:left;
+padding-left:20px;
+}
+
+/* ============================================================ */
+/* ================= 13. CONTACT PAGE MAP STYLES ======================= */
+/* ============================================================ */
+.map-wrapper {
+margin-top: 20px;
+margin-bottom: 20px;
+position:relative;
+width:100%;
+height:300px;
+border-radius: 2px;
+overflow:hidden;
+}
+
+#map-canvas {
+width:100%;
+height:300px;
+border:0;
+border-radius: 2px;
+}
+
+#contact form {
+position:relative;
+z-index:3;
+}
+#contact .form-wrapper {
+background-color:rgba(60,62,71,.8);
+padding: 20px 40px;
+border-radius: 2px;
+}
+
+#contact .form-group {
+color:#FFF;
+}
+
+#contact .form-group input, #contact .form-group textarea {
+background-color:rgba(255,255,255,.4);
+color:#FFF;
+border:none;
+padding:12px 10px;
+height:auto;
+font-size:13px;
+border-radius: 2px;
+box-shadow:none;
+}
+#contact .form-group textarea {
+border-radius: 2px;
+}
+#contact label {
+font-family: 'Raleway', sans-serif;
+max-width: 100%;
+color: #FFF;
+font-size: 13px;
+font-weight: 400;
+margin-top: 10px;
+}
+/* Form Validation */
+#error {
+	color: #FFF;
+	margin-top: 5px;
+	font-size:14px;
+	display:none;
+}
+.success-field {
+background-color:rgba(71,164,71,0.5) !important;
+}
+.required-field {
+background-color:rgba(245,99,99,0.5) !important;
+}
+
+/* ============================================================ */
+/* ================= 14. FORM STYLES ======================= */
+/* ============================================================ */
+form {
+position:relative;
+z-index:3;
+}
+.form-wrapper {
+background-color:rgba(60,62,71,.8);
+padding: 20px 40px;
+border-radius: 2px;
+}
+
+.form-group {
+color:#FFF;
+}
+
+.form-group input, .form-group textarea {
+border-radius: 2px;
+background-color:rgba(0,0,0,0);
+color:#777;
+border:2px solid #EEE;
+padding:8px;
+height:auto;
+font-size:13px;
+  -webkit-box-shadow: none;
+box-shadow:none;
+}
+.form-control:focus {
+  border-color: #ccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+   box-shadow:none;
+}
+.form-group textarea {
+border-radius: 2px;
+}
+label {
+font-family: 'Raleway', sans-serif;
+max-width: 100%;
+color: #50525f;
+font-size: 13px;
+font-weight: 400;
+margin-top: 10px;
+}
+/* Form Validation */
+#error {
+	color: #FFF;
+	margin-top: 5px;
+	font-size:14px;
+	display:none;
+}
+#reply #error {
+color: #777;
+}
+.success-field {
+background-color:rgba(71,164,71,0.5) !important;
+}
+.required-field {
+background-color:rgba(245,99,99,0.5) !important;
+}
+/* ======================================================== */
+/* ================= 15. TEAM MEMBERS ======================= */
+/* ======================================================== */
+.team-pic {
+width: 100%;
+height: auto;
+border-radius: 2px;
+margin-top: 40px;
+}
+.team-wrapper {
+position: relative;
+width: 100%;
+height: 100%;
+margin-top: 20px;
+}
+.team-wrapper img {
+min-width: 100%;
+height: auto;
+}
+.team-drop li > i {
+border-radius:500px;
+font-size:18px;
+width: 35px;
+height: 35px;
+line-height: 37px;
+text-align: center;
+color: #FFF;
+background-color:rgba(60,62,71,1);
+cursor: pointer;
+position: relative;
+    -webkit-transition: background-color 0.35s;
+  -moz-transition: background-color 0.35s;
+  -o-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+  z-index: 1;
+}
+
+.team-drop {
+list-style: none;
+}
+.team-drop ul {
+list-style: none;
+margin: 0;
+padding: 10px 20px 20px;
+position: absolute;
+top: 15px;
+background-color:rgba(255,255,255,1);
+border-radius: 2px;
+width: 300px;
+text-align: left;
+z-index: 2;
+border: 1px solid #BBB;
+display: block;
+    -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+/* TEAM STYLE 2 - SLIDER DISPLAY */
+#team-slider .team-wrapper {
+padding: 15px;
+}
+#team-slider .owl-controls {
+position: absolute;
+top: -5px;
+right: 10px;
+width: 100%;
+text-align: right;
+}
+
+/* TEAM STYLE 3 - TRADITIONAL DISPLAY */
+.team-img-wrapper {
+position: relative;
+width: 100%;
+height: 100%;
+}
+.team-img-wrapper-hover {
+position: absolute;
+text-align: center;
+width: 100%;
+height: 100%;
+background-color:rgba(60,62,71,0.8);
+opacity: 0;
+border-radius: 1px;
+    -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+}
+.team-img-wrapper-hover:hover {
+opacity: 1;
+}
+.team-img-wrapper img {
+border-radius: 1px;
+}
+.team-img-wrapper .social-icons {
+position: absolute;
+top: 50%;
+margin-top: -9px;
+width: 100%;
+}
+.team-img-wrapper .social-icons i {
+color: #FFF;
+}
+/* ============================================================ */
+/* ================= 16 SOCIAL ICON STYLES ======================= */
+/* ============================================================ */
+.social-icons i {
+border-radius:500px;
+font-size:18px;
+margin-right: 4px;
+padding: 6px;
+text-align: center;
+color: #50525f;
+border: none;
+cursor: pointer;
+position: relative;
+z-index: 1;
+}
+.social-icons i:hover {
+color: #f56363;
+}
+
+/* ============================================================ */
+/* ================= 17. COUNTER STYLES ======================= */
+/* ============================================================ */
+.counter {
+font-size: 44px;
+line-height: 1;
+font-weight: 800;
+}
+.counter-section i {
+border-radius:500px;
+font-size:44px;
+width: 100px;
+height: 100px;
+line-height: 100px;
+margin-top:0;
+margin-bottom:20px;
+background-color:rgba(255,255,255,0.3);
+text-align: center;
+color: #FFF;
+}
+/* ============================================================ */
+/* ================= 18. ACCORDION AND TABS ======================= */
+/* ============================================================ */
+/* === ACCORDIAN === */
+/* === ACCORDIAN === */
+.panel-title {
+font-size:13px;
+position:relative;
+vertical-align: middle;
+}
+.panel-title i {
+position:relative;
+margin-right:15px;
+font-size:24px;
+top:2px;
+}
+.panel-title a {
+color:#777;
+}
+.panel-title a:hover {
+color:#777;
+}
+
+.panel-title:after {
+content:"\f0da";
+display:inline-block;
+font-family:FontAwesome;
+font-style:normal;
+font-weight:normal;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+position:absolute;
+right:6px;
+top:50%;
+margin-top:-2px;
+font-size:15px;
+transition:all .5s;
+-moz-transition:all .5s;
+-webkit-transition:all .5s;
+}
+
+.panel-group .panel-heading {
+transition:all .35s;
+-moz-transition:all .35s;
+-webkit-transition:all .35s;
+padding:12px 15px;
+border-bottom:1px solid transparent;
+background-color:#F5F5F5;
+}
+
+.panel-group .panel {
+border-radius:0;
+}
+
+.panel {
+border:1px solid transparent;
+box-shadow:none;
+border-bottom:none;
+}
+
+.panel-group .panel:first-child {
+border-top-right-radius:3px;
+border-top-left-radius:3px;
+}
+
+.panel-group .panel:last-child {
+border-bottom:1px solid #EEE;
+border-bottom-right-radius:3px;
+border-bottom-left-radius:3px;
+}
+
+.panel-group .panel + .panel {
+margin-top:0;
+}
+
+.panel-body {
+border-top:1px solid #EEE;
+padding:25px;
+}
+
+.panel-default {
+border-color:#EEE;
+}
+
+.panel-heading:hover {
+background-color:#F5F5F5;
+}
+
+#accordion .panel a.selected .panel-heading {
+background-color:#f56363;
+border-radius:0;
+}
+
+#accordion .panel a.selected .panel-title {
+color:#FFF;
+}
+
+#accordion .panel a.selected .panel-title:after {
+content:"\f0d7";
+transition:all .5s;
+-moz-transition:all .5s;
+-webkit-transition:all .5s;
+}
+/* === TABS === */
+.nav-tabs {
+border-bottom:1px solid #EEE;
+font-size:13px;
+}
+
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus {
+color:#f56363;
+}
+
+.nav-tabs > li > a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+margin-right:2px;
+color:#777;
+line-height:1.42857;
+border-radius:3px 3px 0 0;
+background-color:#FFF;
+border:0;
+}
+
+.nav-tabs > li.active > a {
+background-color:#FFF;
+border-bottom:3px solid #f56363;
+}
+
+.nav-tabs i {
+margin-right:4px;
+}
+
+.tab-pane {
+padding:15px 25px;
+border-width:1px;
+border-style:solid;
+border-color:transparent #EEE #EEE;
+border-bottom-right-radius:3px;
+border-bottom-left-radius:3px;
+}
+
+.nav-tabs > li > a:hover {
+border-color:#EEE;
+}
+
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus {
+border:1px solid #EEE;
+border-bottom-color:transparent;
+background-color:#FFF;
+}
+
+.nav-tabs#tabs > li > a {
+background-color:#FFF;
+border:0;
+}
+
+.nav-tabs#tabs > li.active > a {
+background-color:#FFF;
+border-bottom:3px solid #f56363;
+}
+
+.nav#tabs > li {
+position:relative;
+display:block;
+}
+/* ============================================================ */
+/* ================= 19. STYLE SWITCHER STYLES ======================= */
+/* ============================================================ */
+.style-switch-wrapper {
+position: fixed;
+top: 100px;
+left: -250px;
+width: 250px;
+height: auto;
+background-color:rgba(60,62,71,0.8);
+border-bottom-right-radius: 4px;
+padding: 20px 20px;
+z-index: 1000;
+-webkit-transition: all 0.35s;
+-moz-transition:  all 0.35s;
+-o-transition:  all 0.35s;
+transition:  all 0.35s;
+}
+.style-switch-wrapper.active {
+left: 0;
+}
+.style-switch-button {
+position: absolute;
+top: 0;
+left: 250px;
+width: 50px;
+height: 50px;
+background-color:rgba(60,62,71,0.8);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+z-index: 1000;
+cursor: pointer;
+}
+.style-switch-button i {
+color: #FFF;
+position: relative;
+line-height: 1;
+top:15px;
+left: 15px;
+font-size: 20px;
+}
+.style-switch-wrapper button {
+width: 25px;
+height: 25px;
+border-radius: 25px;
+padding: 0;
+margin-bottom: 5px;
+}
+.style-switch-wrapper button:active, .style-switch-wrapper button:focus {
+border: 2px solid #FFF;
+}
+.style-switch-wrapper #default {
+background-color: #f56363;
+padding: 0;
+}
+.style-switch-wrapper #metro {
+background-color: #47c3ca;
+}
+.style-switch-wrapper #midnight {
+background-color: #3071a7;
+}
+.style-switch-wrapper #tangerine {
+background-color: #ff8263;
+}
+.style-switch-wrapper #lime {
+background-color: #2ecc71;
+}
+.style-switch-wrapper #aqua {
+background-color: #1abc9c;
+}
+.style-switch-wrapper #purple {
+background-color: #9b59b6;
+}
+.style-switch-wrapper #gold {
+background-color: #ffdb49;
+}
+.style-switch-wrapper #fire {
+background-color: #ff9845;
+}
+.style-switch-wrapper #pink {
+background-color: #fa3dad;
+}
+.style-switch-wrapper #marine {
+background-color: #327CCB;
+}
+.style-switch-wrapper #green {
+background-color: #99c87a;
+}
+/* ============================================================ */
+/* ================= 20. Core Owl Carousel CSS File v1.3.2 ============== */
+/* ============================================================ */
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.html) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #000;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+.owl-prev, .owl-next {
+font-family: "Raleway";
+font-size: 12px;
+font-weight: 800;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 4px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.html) no-repeat center center
+}
+/* ============================================================ */
+/* ================= 21. PORTFOLIO STYLES ======================= */
+/* ============================================================ */
+#portfolio div[class*='col-sm-'] {
+padding-left: 0px;
+padding-right: 0px;
+}
+#portfolio button {
+margin-right: 1px;
+margin-left: 1px;
+}
+#portfolio .col-sm-3 .img-thumb {
+height: 250px;
+}
+
+.portfolio-hover {
+position: absolute;
+text-align: center;
+width: 100%;
+height: 100%;
+color: #FFF;
+background-color:rgba(60,62,71,0.7);
+opacity: 0;
+    -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+  transition: all 0.45s;
+  z-index: 10;
+}
+.portfolio-hover i {
+position: relative;
+font-size: 12px;
+top: 1px;
+}
+.portfolio-hover-buttons {
+position: absolute;
+top: 50%;
+width: 100%;
+margin-top: -12px;
+color: #FFF;
+    -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.portfolio-hover-buttons a{
+border: 2px solid #FFF;
+border-radius: 2px;
+padding: 8px 18px;
+margin: 0 1px;
+color: #FFF;
+font-weight: 700;
+font-size: 11px;
+letter-spacing: 1px;
+text-transform: uppercase;
+    -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.portfolio-hover-buttons a:last-child {
+padding: 8px 10px;
+}
+.portfolio-hover-buttons a:hover {
+background-color:#FFF;
+color: #f56363;
+border: 2px solid #FFF;
+}
+.portfolio-hover:hover {
+opacity: 1;
+}
+/* ============================================= */
+/* ========== 22. ISOTOPE FILTERING SCRIPT ========== */
+/* ============================================= */
+#isotope, #isotope-masonry {
+width:100%;
+margin-top:0;
+}
+
+.isotope-item {
+z-index:2;
+}
+
+.isotope-hidden.isotope-item {
+pointer-events:none;
+z-index:1;
+}
+
+.isotope,.isotope .isotope-item {
+-webkit-transition-duration:1s;
+-moz-transition-duration:1s;
+-ms-transition-duration:1s;
+-o-transition-duration:1s;
+transition-duration:1s;
+}
+
+.isotope {
+-webkit-transition-property:height, width;
+-moz-transition-property:height, width;
+-ms-transition-property:height, width;
+-o-transition-property:height, width;
+transition-property:height, width;
+}
+
+.isotope .isotope-item {
+-webkit-transition-property:0 opacity;
+-moz-transition-property:0 opacity;
+-ms-transition-property:0 opacity;
+-o-transition-property:0 opacity;
+transition-property:transform, opacity;
+}
+
+#isotope .col-sm-3, #isotope-masonry .col-sm-3, #isotope .col-md-3, #isotope-masonry .col-md-3 {
+width:24.9%;
+}
+#isotope .col-sm-4,#isotope-masonry .col-sm-4, #isotope .col-md-4,#isotope-masonry .col-md-4 {
+width:33.3%;
+}
+
+@media (max-width: 768px) {
+#isotope .col-sm-3, #isotope-masonry .col-sm-3, #isotope .col-md-3, #isotope-masonry .col-md-3 {
+width:100%;
+}
+
+#isotope .col-sm-4, #isotope-masonry .col-sm-4, #isotope .col-md-4, #isotope-masonry .col-md-4 {
+width:100%;
+}
+}
+
+#isotope-filter {
+margin-bottom: 40px;
+}
+/* ============================================================ */
+/* ================= 23. BREADCRUMBS STYLES ======================= */
+/* ============================================================ */
+.breadcrumb {
+  font-family: 'Raleway', sans-serif;
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none outside none;
+    background-color: transparent;
+    border-radius: 0;
+	color: #50525F;
+	font-size: 14px;
+	font-weight: 400;
+}
+.breadcrumb > li + li:before {
+	font-family: 'FontAwesome';
+    padding: 0px 5px;
+	content: "\f101";
+	color: #50525F;
+}
+.breadcrumb > .active {
+    color: #50525F;
+}
+/* ============================================================ */
+/* ================= 24. PAGINATION STYLES ======================= */
+/* ============================================================ */
+.pagination {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+margin-left: 0;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+color: #f56363;
+background-color: #eee;
+border-color: #ddd;
+}
+.pagination > li > a, .pagination > li > span {
+position: relative;
+float: left;
+padding: 6px 12px;
+margin-left: -1px;
+line-height: 1.42857143;
+color: #50525F;
+text-decoration: none;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+z-index: 2;
+color: #fff;
+cursor: default;
+background-color: #f56363;
+border-color: #f56363;
+}
+/* Pager */
+.pager li > a, .pager li > span {
+  font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+	  font-weight: 500;
+}
+/* ============================================================ */
+/* ================= 25. PROGRESS BAR STYLES ======================= */
+/* ============================================================ */
+.progress {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  height: 30px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #f56363;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+          transition: width .6s ease;
+}
+/* ============================================================ */
+/* ================= 26. TABLE STYLES ======================= */
+/* ============================================================ */
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+th {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #EEE;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #EEE;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table > tbody + tbody {
+  border-top: 2px solid #EEE;
+}
+.table .table {
+  background-color: #fff;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F5F5F5;
+}
+/* ============================================================ */
+/* ================= 27. FOOTER STYLES ======================= */
+/* ============================================================ */
+.footer {
+background-color: #3c3e47;
+}
+.footer .social-icons i {
+display: inline-block;
+font-size: 30px;
+color: #BBB;
+padding: 20px;
+border-radius: 2px;
+border: none !important;
+-webkit-transition: all 0.35s;
+-moz-transition:  all 0.35s;
+-o-transition:  all 0.35s;
+transition:  all 0.35s;
+}
+.footer .social-icons i:hover {
+color: #FFF;
+background-color: #F56363;
+}
+.footer a, .footer a:link, .footer a:visited {
+text-decoration: none;
+color: #BBB;
+  outline: 0;
+}
+.footer a:active, .footer a:hover {
+color: #f56363;
+  outline: 0;
+}
+.footer-logo {
+display: inline-block;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: -20px;
+}
+@media (max-width: 768px) {
+.footer .social-icons i {
+display: block;
+}
+.footer-logo {
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+display: block;
+}
+}
